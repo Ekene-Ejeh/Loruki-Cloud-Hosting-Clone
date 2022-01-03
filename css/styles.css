@@ -193,3 +193,17 @@ img {
 .footer ul a:hover {
 	border-bottom: 2px #fff solid;
 }
+
+/* Tablets and under */
+@media (max-width: 768px) {
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+	.navbar {
+		height: 110px;
+	}
+	.navbar .flex {
+		flex-direction: column;
+	}
+}
