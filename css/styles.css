@@ -191,7 +191,13 @@ img {
 }
 
 .footer ul a:hover {
-	border-bottom: 1px #fff solid;
+	border-bottom: 2px #fff solid;
+}
+
+/* features */
+.features-head img {
+	width: 200px;
+	justify-self: flex-end;
 }
 
 /* Tablets and under */
