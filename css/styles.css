@@ -250,6 +250,16 @@ pre {
 	border-bottom: 2px #fff solid;
 }
 
+/* Animations */
+@keyframes slideInFromLeft {
+	0% {
+		transform: translateX(-100%);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
 /* Tablets and under */
 @media (max-width: 768px) {
 	/* body {
